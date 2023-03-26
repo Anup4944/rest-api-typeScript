@@ -3,7 +3,20 @@ POST http://localhost:8080/auth/register
 Content-Type: application/json
 
 {
-    "email":"ap@gmail.com",
+    "email":"jp@gmail.com",
     "password":"1234",
-    "username":"anup"
+    "username":"anupp"
 }
+
+### Login User
+POST http://localhost:8080/auth/login
+Content-Type: application/json
+
+{
+    "email":"ap@gmail.com",
+    "password":"1234"
+}
+
+
+### Get all users
+GET http://localhost:8080/users
